@@ -1,0 +1,8 @@
+version: '2'
+services:
+  rpi:
+    image: twhtanghk/rpi-kernel
+    volumes:
+      - ./data:/data
+    environment:
+      - TERM=xterm

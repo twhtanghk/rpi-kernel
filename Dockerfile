@@ -15,6 +15,6 @@ ENV KERNEL=kernel7
 RUN git clone --depth=1 https://github.com/raspberrypi/linux \
 &&  cd linux \
 &&  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- bcm2709_defconfig \
-&&  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs \
+&&  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs
 
 CMD top -b -d 1000

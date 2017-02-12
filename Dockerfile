@@ -9,7 +9,7 @@ RUN apt-get update \
 &&  apt-get install -y crossbuild-essential-armhf \
 &&  apt-get clean
 
-WORDIR /data
+WORKDIR /data
 
 ENV KERNEL=kernel7
 RUN git clone --depth=1 https://github.com/raspberrypi/linux \

@@ -1,2 +1,2 @@
 # rpi-kernel
-Docker image to build raspberry pi kernel
+Docker image to build raspberry/orange pi kernel
